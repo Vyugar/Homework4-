@@ -9,7 +9,7 @@ int [] getRange(int length)
     Random rd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rd.Next(0, 9);
+        array[i] = rd.Next(0, 10);
     }
     return array;
 }
